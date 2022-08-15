@@ -5,20 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="./assets/CSS/style.css">
   <title>Portfolio</title>
 </head>
 
 <body>
   <!-- background color for page -->
-  <div class="h-screen bg-gradient-to-t from-slate-400">
+  <div class="h-screen bg-gradient-to-t from-stone-400 to-indigo-600">
     <!-- header -->
     <div>
-      <header class="bg-transparent">
+      <header class="bg-transparent mb-11">
         <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div class="flex items-center justify-between h-16">
             <div class="md:flex md:items-center md:gap-12">
-              <a class="block text-slate-600" href="/">
+              <a class="block text-slate-200" href="/">
                 <span class="sr-only">Tommy Luna</span>
                 <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -27,33 +28,33 @@
                 </svg>
               </a>
             </div>
-
+            <!-- Header Options (About,Projects,Contact) -->
             <div class="hidden md:block">
               <nav aria-labelledby="header-navigation">
                 <h2 class="sr-only" id="header-navigation">Header navigation</h2>
 
                 <ul class="flex items-center gap-6 text-sm">
                   <li>
-                    <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
+                    <a class="text-gray-200 text-xl transition hover:text-gray-500/75" href="/">
                       About
                     </a>
                   </li>
 
                   <li>
-                    <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
+                    <a class="text-gray-200 text-xl transition hover:text-gray-500/75" href="/">
                       Projects
                     </a>
                   </li>
 
                   <li>
-                    <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-                      Contact Me
+                    <a class="text-gray-200 text-xl transition hover:text-gray-500/75" href="/">
+                      Contact
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
-
+            <!-- Dark Mode Icon -->
             <div class="flex items-center gap-4">
               <div class="sm:gap-4 sm:flex">
                 <a class="px-5 py-2.5 text-sm font-medium text-white bg-slate-800 rounded-md shadow" href="/">
@@ -74,15 +75,25 @@
         </div>
       </header>
     </div>
+    <!-- Avatar Card -->
 
-    <!-- center card with information -->
-    <div>
 
+    <div class="flex h-screen lg:h-1/2">
+      <div class="m-auto">
+        <div class="mx-auto text-center prose">
+          <div class="container">
+            <img src="./assets/img/1126923.png" alt="avatar photo" class="object-cover mx-auto h-36 w-36 rounded-full">
+            <h1 class="text-5xl font-bold pt-6 px-10 text-slate-300 lg:text-white">Tommy Alvarado</h1>
+            <p class="pt-6 pb-10 text-3xl font-semibold text-indigo-800 lg:text-indigo-800">Full Stack Developer</p>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
 
   <!-- Footer -->
-  <footer class="bg-slate-400">
+  <footer class="bg-stone-400">
     <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="flex justify-center text-teal-600 sm:justify-start">
@@ -126,8 +137,9 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>
 
-<!-- $ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch -->
+<!-- npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch -->
