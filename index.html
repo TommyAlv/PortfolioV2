@@ -13,34 +13,39 @@
   <title>Portfolio</title>
 </head>
 
-<body>
+<body class="">
   <!-- background color for page -->
-  <div class="h-screen bg-gradient-to-t from-stone-400 to-indigo-600">
+  <div class="h-screen bg-gradient-to-t from-white to-stone-500 dark:from-slate-700 dark:to-slate-800">
     <!-- header -->
-    
-    <!-- Avatar Card -->
+
+    <!-- About Me -->
     <div class="flex h-screen">
       <div class="m-auto">
         <div class="mx-auto text-center prose">
           <div class="container">
-            <img src="./assets/img/1126923.png" alt="avatar photo" class="object-cover mx-auto h-36 w-36 rounded-full">
-            <h1 class="text-5xl font-bold pt-6 px-10 text-slate-300 lg:text-slate-300">Tommy Alvarado</h1>
-            <p class="pt-6 pb-9 text-3xl font-semibold text-indigo-800">Full Stack Developer</p>
+            <img src="./assets/img/1126923.png" alt="avatar photo" class="object-cover mx-auto h-36 w-36 rounded-full"
+              id="avatarPhoto">
+            <h1 class="text-5xl font-bold pt-6 px-10 text-slate-600 dark:text-stone-300">Tommy Alvarado</h1>
+            <p class="pt-6 lg:pt-3 md:pt-2 lg:pb-4 sm:pb-9 md:px-4 sm:text-4xl text-3xl font-semibold text-indigo-800 dark:text-emerald-500"
+              id="textRow"></p>
             <!-- menu button  -->
-            <div class="dropdown mt-3">
-              <div tabindex="0" class="m-1 btn text-slate-300 bg-indigo-400 text-2xl mx-auto" id="menuButton">...</div>
-              <ul tabindex="0" class="hidden shadow menu items-center dropdown-content"
-                id="mobileMenu">
-                <li class="text-2xl sm:text-lg text-slate-300" id="hLink">
-                  <a href="./assets/html/aboutme.html">About Me</a>
-                </li>
-                <li class="text-2xl sm:text-lg text-slate-300" id="hLink">
-                  <a>Projects</a>
-                </li>
-                <li class="text-2xl sm:text-lg text-slate-300" id="hLink">
-                  <a>Contact</a>
-                </li>
-              </ul>
+            <div class="dropdown lg:mt-4">
+              <div tabindex="0"
+                class="m-1 sm:pt-3 btn text-slate-300 bg-indigo-800 hover:bg-indigo-400 dark:bg-emerald-700  dark:hover:bg-emerald-300 text-2xl mx-auto"
+                id="menuButton">...</div>
+              <div class="hidden menu items-center text-center container w-full" id="mobileMenu">
+                <ul class="bg-transparent items-center">
+                  <li class="text-2xl sm:text-lg text-indigo-800 dark:text-stone-300" id="hLink">
+                    <a href="./assets/html/aboutme.html">About Me</a>
+                  </li>
+                  <li class="text-2xl sm:text-lg text-indigo-800 dark:text-stone-300" id="hLink">
+                    <a>Projects</a>
+                  </li>
+                  <li class="text-2xl sm:text-lg text-indigo-800 dark:text-stone-300" id="hLink">
+                    <a>Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -49,7 +54,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-stone-400">
+  <footer class="bg-stone-400 dark:bg-slate-700">
     <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="flex justify-center text-teal-600 sm:justify-start">
@@ -87,7 +92,7 @@
           </svg> -->
         </div>
 
-        <p class="mt-4 text-sm text-center text-gray-500 lg:text-right lg:mt-0">
+        <p class="mt-4 text-sm text-center text-gray-500 lg:text-right lg:mt-0 dark:text-white">
           Tommy Alvarado &copy; 2022. All rights reserved.
         </p>
       </div>
@@ -103,6 +108,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="./assets/JS/script.js"></script>
+  <script src="./assets/JS/autotyping.js"></script>
 </body>
 
 </html>
