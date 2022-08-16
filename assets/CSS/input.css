@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    * {
-        font-family: komet, sans-serif;
-    }
-};
+* {
+    font-family: komet, sans-serif !important;
+}
