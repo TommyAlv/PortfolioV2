@@ -16,7 +16,7 @@
 
 <body>
   <!-- background color for page -->
-  <div class="h-screen bg-gradient-to-t from-stone-400 to-indigo-600">
+  <div class="h-screen bg-gradient-to-t from-white to-stone-500">
     <!-- drawer container -->
     <div class="drawer drawer-end">
       <input id='mydrawer' type="checkbox" class="drawer-toggle" />
@@ -27,15 +27,35 @@
           <div class="hero-content text-center">
             <div class="max-w-md">
               <h1 class="text-5xl font-bold">Let Me Introduce Myself...</h1>
-              <h2 class="pt-4 text-2xl font-medium">My Name is <span class="text-stone-300">Tommy Alvarado</span></h2>
-              <p class="text-xl py-6">I need to write a bio about myself here</p>
-              <!-- <button class="btn btn-primary">Get Started</button> -->
+              <h2 class="pt-4 text-2xl font-medium text-slate-800">My Name is <span class="text-indigo-700"
+                  id="nameSection">Tommy
+                  Alvarado</span></h2>
+              <!-- professional bio -->
+              <p class="text-xl pt-6 pb-10 text-slate-800">I am an experienced Business Analyst based out of Utah who is currently pursuing a
+                full stack
+                developer certification in order to further broaden my skills and to continue to establish myself in the
+                technology field
+              </p>
+              <!-- progress bar -->
+              <div>
+                <ul class="steps steps-vertical lg:steps-horizontal">
+                  <li class="step step-primary">Be Born</li>
+                  <li class="step step-primary">Get Into Tech</li>
+                  <li class="step">Master Development</li>
+                  <li class="step">Rule The World</li>
+                </ul>
+              </div>
+
+              <div>
+                HELLO
+              </div>
+
             </div>
           </div>
         </div>
 
         <!-- Footer -->
-        <footer class="bg-stone-400">
+        <footer class="bg-white">
           <div class="max-w-screen-xl px-4 pb-4 mx-auto sm:px-6 lg:px-8">
             <div class="sm:flex sm:items-center sm:justify-between">
               <div class="flex justify-center text-teal-600 sm:justify-start">
@@ -78,31 +98,34 @@
               </p>
             </div>
           </div>
-          
+
         </footer>
       </div>
 
-        <label for="mydrawer" class="btn bg-indigo-900 hover:bg-slate-500 drawer-button fixed top-0 right-8 z-10" id="mydrawerbutton">...</label>
-        <div class="drawer-side">
-          <label for="mydrawer" class="drawer-overlay"></label>
-          <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 text-white uppercase" id="mydrawermenu">
-            <li id="hLink"><a href="../../index.html">Home</a></li>
-            <li id="hLink"><a href="../html/aboutme.html">About Me</a></li>
-            <li id="hLink"><a href="">Projects</a></li>
-            <li id="hLink"><a href="">Contact</a></li>
-          </ul>
-        </div>
+      <label for="mydrawer"
+        class="btn bg-indigo-900 hover:bg-slate-500 drawer-button fixed top-1 right-2 lg:right-4 z-10"
+        id="mydrawerbutton">...</label>
+      <div class="drawer-side">
+        <label for="mydrawer" class="drawer-overlay"></label>
+        <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 to-slate-500 text-white uppercase"
+          id="mydrawermenu">
+          <li id="hLink"><a href="../../index.html" class="hover:text-white active:bg-slate-400">Home</a></li>
+          <li id="hLink"><a href="../html/aboutme.html" class="hover:text-white active:bg-slate-400">About Me</a></li>
+          <li id="hLink"><a href="" class="hover:text-white active:bg-slate-400">Projects</a></li>
+          <li id="hLink"><a href="" class="hover:text-white active:bg-slate-400">Contact</a></li>
+        </ul>
+      </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    <script src="../JS/aboutme.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+      <script src="../JS/aboutme.js"></script>
 </body>
 
 </html>

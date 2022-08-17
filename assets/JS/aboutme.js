@@ -6,22 +6,16 @@ const mobileMoon = document.querySelector("#mobileMoon")
 const body = document.querySelector("body")
 const mydrawermenu = document.querySelector('#mydrawermenu')
 const mydrawerbutton = document.querySelector('#mydrawerbutton')
+const nameSection = document.querySelector('#nameSection')
 
-hamburger.addEventListener("click", ()=>{
+
+nameSection.addEventListener('click', () => {
+  body.classList.toggle('dark')
+});
+
+hLinks.forEach(link => {
+  link.addEventListener("click", () => {
     menu.classList.toggle("hidden")
     hamburger.classList.toggle("bg-white")
   })
-
-  hLinks.forEach(link=>{
-    link.addEventListener("click", ()=>{
-      menu.classList.toggle("hidden")
-      hamburger.classList.toggle("bg-white")
-    })
-  });
-
-  moon.addEventListener("click", ()=>{
-    body.classList.toggle("dark")
-  })
-  mobileMoon.addEventListener("click", ()=>{
-    body.classList.toggle("dark")
-  })
+});
