@@ -6,3 +6,11 @@
 #mobileMenu {
     border-radius: 15px;
 };
+
+#wrapper > div {
+    width: 500vw;
+  }
+  .section {
+    float: left;
+    width: 20%;
+  }

@@ -4,6 +4,8 @@
   },
   "dependencies": {
     "autotyping": "^1.2.6",
-    "daisyui": "^2.24.0"
+    "daisyui": "^2.24.0",
+    "scrollmagic": "^2.0.8",
+    "sweet-scroll": "^4.0.0"
   }
 }

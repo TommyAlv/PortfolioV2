@@ -1,3 +1,4 @@
+import SweetScroll from 'sweet-scroll';
 const hamburger = document.querySelector("#hamburger")
 const menu = document.querySelector("#menu")
 const hLinks = document.querySelectorAll("#hLink")
@@ -19,3 +20,8 @@ hLinks.forEach(link => {
     hamburger.classList.toggle("bg-white")
   })
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const sweetScroll = new SweetScroll({ /* some options */ });
+}, false);
