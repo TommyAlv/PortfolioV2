@@ -9,9 +9,6 @@ const mydrawerbutton = document.querySelector('#mydrawerbutton')
 const nameSection = document.querySelector('#nameSection')
 
 
-// nameSection.addEventListener('click', () => {
-//   body.classList.toggle('dark')
-// });
 
 hLinks.forEach(link => {
   link.addEventListener("click", () => {
@@ -19,3 +16,4 @@ hLinks.forEach(link => {
     hamburger.classList.toggle("bg-white")
   })
 });
+

@@ -27,7 +27,7 @@
         <!-- hero -->
         <div class="hero min-h-screen bg-transparent">
           <div class="hero-content text-center">
-            <div class="w-full sm:px-4">
+            <div class="pt-10 lg:pt-0 w-full sm:px-4">
               <h1 class="text-5xl font-bold text-slate-900 dark:text-stone-500">It May Not Be Much, But It's Honest.
               </h1>
               <h2 class="pt-8 text-3xl font-semibold text-slate-800 dark:text-stone-200">Below are a few projects that I
@@ -38,139 +38,159 @@
               </p> -->
               <!-- div -->
 
+              <!-- focused project -->
 
-              <!-- Carousel of Projects-->
-              <section class="pt-5 lg:pt-0">
+              <!-- cards -->
+              <div class="container mx-autolg:w-1/2 bg-transparent">
+                <div class="p-5 sm:p-0 flex flex-col lg:flex-row space-y-3 lg:space-y-0 space-x-0 lg:space-x-3">
+                  <!-- card -->
+                  <a class="relative rounded-3xl overflow-hidden w-full h-64 bg-black group" href="">
+                    <img
+                      class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-60  group-hover:opacity-50"
+                      src="../img/YCEVscreenshot.png" alt="" />
+                    <div class="relative w-full flex justify-center p-8">
 
-                <div id="indicators-carousel" class="relative" data-carousel="static">
-                  <!-- Carousel wrapper -->
-                  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                    <!-- Item 1 -->
-                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
-                      data-carousel-item="active">
-                      <img src="/docs/images/carousel/carousel-1.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                      <p class="absolute top-28 text-2xl font-bold group-hover:opacity-0 text-white">Your Corner EV</p>
+
+                      <div class="mt-6 mb-4">
+                        <div
+                          class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                          <p class="text-sm font-komet text-white">
+                            A website for users who are looking for alternative fueling stations near them or near a particular location.
+                        </div>
+                      </div>
                     </div>
-                    <!-- Item 2 -->
-                    <div
-                      class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
-                      data-carousel-item="">
-                      <img src="/docs/images/carousel/carousel-2.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                  </a>
+                  <!-- card -->
+                  <a class="relative block rounded-3xl overflow-hidden w-full h-64 bg-black group" href="">
+                    <img
+                      class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-60  group-hover:opacity-50"
+                      src="../img/CodeQuizScreenshot.png" alt="" />
+                    <div class="relative w-full flex justify-center p-8">
+
+                      <p class="absolute top-28 text-2xl font-bold group-hover:opacity-0 text-white">Code Quiz</p>
+
+                      <div class="mt-6 mb-4">
+                        <div
+                          class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                          <p class="text-sm text-white">
+                            A coding quiz made to test your knowledge. It includes a timer and a penalty while utilizing local storage to keep high scores!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform"
-                      data-carousel-item="">
-                      <img src="/docs/images/carousel/carousel-3.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                  </a>
+                  <!-- card -->
+                  <a class="relative block rounded-3xl overflow-hidden w-full h-64 bg-black group" href="">
+                    <img
+                      class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-60  group-hover:opacity-50"
+                      src="../img/Screenshot at Aug 05 18-30-42.png" alt="" />
+                    <div class="relative w-full flex justify-center p-8">
+
+                      <p class="absolute top-28 text-2xl font-bold group-hover:opacity-0 text-white">Workday Scheduler</p>
+
+                      <div class="mt-6 mb-4">
+                        <div
+                          class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                          <p class="text-sm text-white">
+                            An editable 5 day work week task list made to help individuals keep track of their day to day agenda.
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform"
-                      data-carousel-item="">
-                      <img src="/docs/images/carousel/carousel-4.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                  </a>
+                  <!-- card -->
+                  <a class="relative block rounded-3xl overflow-hidden w-full h-72 bg-black group" href="">
+                    <img
+                      class="absolute flex items-center inset-0 object-cover w-full h-full transition-opacity opacity-60  group-hover:opacity-50"
+                      src="../img/Weatherappscreenshot.png" alt="" />
+                    <div class="relative w-full flex justify-center p-8">
+
+                      <p class="absolute mx-auto top-28 text-2xl font-bold group-hover:opacity-0 text-white">Weather App</p>
+
+                      <div class="mt-0 mb-4">
+                        <div
+                          class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                          <p class="text-sm text-white">
+                            A weather dashboard that allows users to find the current weather and the 5 day forecast for any city. <br>This allows users to keep recent searches at a glance for easy access.
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <!-- Item 5 -->
-                    <div
-                      class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10"
-                      data-carousel-item="">
-                      <img src="/docs/images/carousel/carousel-5.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                  </a>
+                  <!-- card -->
+                  <a class="relative block rounded-3xl overflow-hidden w-full h-72 bg-black group" href="">
+                    <img
+                      class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-60  group-hover:opacity-50"
+                      src="../img/PasswordGeneratorScreenShot.png" alt="" />
+                    <div class="relative w-full flex justify-center p-8">
+
+                      <p class="absolute top-28 text-2xl font-bold group-hover:opacity-0 text-white">Password Generator</p>
+
+                      <div class="mt-0 mb-4">
+                        <div
+                          class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                          <p class="text-sm text-white">
+                            An easy to use password generator to assist users with making thorough and secure passwords, while giving them the option to utilize uppercase, lowercase, numbers and special characters. 
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <!-- Slider indicators -->
-                  <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                    <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true"
-                      aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button"
-                      class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                      aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button"
-                      class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                      aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                    <button type="button"
-                      class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                      aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                    <button type="button"
-                      class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                      aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                  </div>
-                  <!-- Slider controls -->
-                  <button type="button"
-                    class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-prev="">
-                    <span
-                      class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                      <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
-                        </path>
-                      </svg>
-                      <span class="sr-only">Previous</span>
-                    </span>
-                  </button>
-                  <button type="button"
-                    class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-next="">
-                    <span
-                      class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                      <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                      </svg>
-                      <span class="sr-only">Next</span>
-                    </span>
-                  </button>
+                  </a>
+
                 </div>
-              </section>
-              
+
+
+              </div>
+
+            </div>
           </div>
         </div>
+
+        <!-- page content end -->
+
+        <!-- Footer -->
+        <footer class="bg-transparent">
+          <div class="max-w-screen-xl px-4 pb-4 mx-auto sm:px-6 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <div class="flex justify-center text-teal-600 sm:justify-start">
+                <!-- Logo Here -->
+              </div>
+
+              <p class="mt-4 text-sm text-center text-gray-500 dark:text-white lg:text-right lg:mt-0">
+                Tommy Alvarado &copy; 2022. All rights reserved.
+              </p>
+            </div>
+          </div>
+
+        </footer>
       </div>
 
-      <!-- page content end -->
+      <label for="mydrawer"
+        class="btn bg-indigo-900 hover:bg-slate-500 drawer-button absolute top-1 right-8 lg:right-6 z-10"
+        id="mydrawerbutton">...</label>
+      <div class="drawer-side">
+        <label for="mydrawer" class="drawer-overlay"></label>
+        <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 to-slate-500 text-white uppercase"
+          id="mydrawermenu">
+          <li id="hLink"><a href="../../index.html" class="hover:text-white active:bg-slate-400">Home</a></li>
+          <li id="hLink"><a href="../html/aboutme.html" class="hover:text-white active:bg-slate-400">About Me</a></li>
+          <li id="hLink"><a href="../html/projects.html" class="hover:text-white active:bg-slate-400">Projects</a>
+          </li>
+          <li id="hLink"><a href="../html/contact.html" class="hover:text-white active:bg-slate-400">Contact</a></li>
+        </ul>
+      </div>
 
-      <!-- Footer -->
-      <footer class="bg-transparent">
-        <div class="max-w-screen-xl px-4 pb-4 mx-auto sm:px-6 lg:px-8">
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <div class="flex justify-center text-teal-600 sm:justify-start">
-              <!-- Logo Here -->
-            </div>
-
-            <p class="mt-4 text-sm text-center text-gray-500 dark:text-white lg:text-right lg:mt-0">
-              Tommy Alvarado &copy; 2022. All rights reserved.
-            </p>
-          </div>
-        </div>
-
-      </footer>
-    </div>
-
-    <label for="mydrawer"
-      class="btn bg-indigo-900 hover:bg-slate-500 drawer-button absolute top-1 right-8 lg:right-6 z-10"
-      id="mydrawerbutton">...</label>
-    <div class="drawer-side">
-      <label for="mydrawer" class="drawer-overlay"></label>
-      <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 to-slate-500 text-white uppercase"
-        id="mydrawermenu">
-        <li id="hLink"><a href="../../index.html" class="hover:text-white active:bg-slate-400">Home</a></li>
-        <li id="hLink"><a href="../html/aboutme.html" class="hover:text-white active:bg-slate-400">About Me</a></li>
-        <li id="hLink"><a href="../html/projects.html" class="hover:text-white active:bg-slate-400">Projects</a></li>
-        <li id="hLink"><a href="../html/contact.html" class="hover:text-white active:bg-slate-400">Contact</a></li>
-      </ul>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    <script src="../JS/projects.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+      <script src="../JS/projects.js"></script>
 </body>
 
 </html>

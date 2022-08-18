@@ -5,6 +5,7 @@
   "dependencies": {
     "autotyping": "^1.2.6",
     "daisyui": "^2.24.0",
+    "flowbite": "^1.5.2",
     "scrollmagic": "^2.0.8",
     "sweet-scroll": "^4.0.0"
   }
