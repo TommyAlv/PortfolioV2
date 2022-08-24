@@ -31,8 +31,8 @@
               <h1 class="text-5xl font-bold text-slate-900 dark:text-stone-500">Let's Get To Know Each Other</h1>
               <h2 class="pt-4 pb-8 text-2xl font-medium text-slate-800 dark:text-stone-200"></h2>
 
-              <!-- div -->
-              <form class="w-full max-w-lg mx-auto">
+              <!--  Contact Form - Will uncomment later when backend is done. -->
+              <!-- <form class="w-full max-w-lg mx-auto">
                 <div class="flex flex-wrap -mx-3 mb-3">
                   <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -81,11 +81,11 @@
                       Send
                     </button>
                   </div>
-              </form>
+              </form> -->
 
               <!-- Social Media Icons -->
-              <div class="md:w-2/3 mt-10 mb-20 mx-auto">
-                <h1>Feel Free To Reach Me Here As Well</h1>
+              <div class="md:w-2/3 mb-20 mx-auto">
+                <!-- <h1 class="text-3xl">Feel Free To Reach Me Here</h1> -->
                 <div class="flex flex-row gap-4 mx-auto justify-center pt-2">
                   <a href="https://www.github.com/tommyalv" target="_blank" rel="noreferrer">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="64"
@@ -95,72 +95,80 @@
                       </path>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/tomalv" target="_blank" rel="noreferrer"><svg stroke="currentColor"
-                      fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="64" width="64"
-                      xmlns="http://www.w3.org/2000/svg">
+                  <a href="https://www.linkedin.com/in/tomalv" target="_blank" rel="noreferrer"><svg
+                      stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="64"
+                      width="64" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
                       </path>
                     </svg></a>
+                  <a href="mailto:tommy@tom-a.co?subject=Saw Your Portfolio, Lets Talk!" target="_blank" rel="noreferrer">
+                    <svg class="h-8 w-8 text-red-500" width="64" height="64" viewBox="0 0 24 24" stroke-width="2"
+                      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                  </a>
 
                 </div>
+                <!-- </div> -->
+
               </div>
 
+
+
+
             </div>
-
-
-
-
           </div>
         </div>
+
+        <!-- page content end -->
+
+        <!-- Footer -->
+        <footer class="bg-transparent">
+          <div class="max-w-screen-xl px-4 pb-4 mx-auto sm:px-6 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <div class="flex justify-center text-teal-600 sm:justify-start">
+                <img src="../img/tom-a logo.png" class="w-12" alt="">
+              </div>
+
+              <p class="mt-4 text-sm text-center text-gray-500 dark:text-white lg:text-right lg:mt-0">
+                Tommy Alvarado &copy; 2022. All rights reserved.
+              </p>
+            </div>
+          </div>
+
+        </footer>
       </div>
 
-      <!-- page content end -->
-
-      <!-- Footer -->
-      <footer class="bg-transparent">
-        <div class="max-w-screen-xl px-4 pb-4 mx-auto sm:px-6 lg:px-8">
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <div class="flex justify-center text-teal-600 sm:justify-start">
-              <img src="../img/tom-a logo.png" class="w-12" alt="">
-            </div>
-
-            <p class="mt-4 text-sm text-center text-gray-500 dark:text-white lg:text-right lg:mt-0">
-              Tommy Alvarado &copy; 2022. All rights reserved.
-            </p>
+      <label for="mydrawer"
+        class="btn bg-indigo-900 hover:bg-slate-500 drawer-button absolute top-1 right-8 lg:right-6 z-10"
+        id="mydrawerbutton">...</label>
+      <div class="drawer-side">
+        <label for="mydrawer" class="drawer-overlay"></label>
+        <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 to-slate-500 text-white uppercase"
+          id="mydrawermenu">
+          <li id="hLink"><a href="../../index.html" class="hover:text-white active:bg-slate-400">Home</a></li>
+          <li id="hLink"><a href="../html/aboutme.html" class="hover:text-white active:bg-slate-400">About Me</a></li>
+          <li id="hLink"><a href="../html/projects.html" class="hover:text-white active:bg-slate-400">Projects</a></li>
+          <li id="hLink"><a href="../html/contact.html" class="hover:text-white active:bg-slate-400">Contact</a></li>
+          <div class="absolute flex mx-auto bottom-4">
+            <img src="../img/tom-a logo.png" class="w-12" alt="">
           </div>
-        </div>
+        </ul>
+      </div>
 
-      </footer>
-    </div>
-
-    <label for="mydrawer"
-      class="btn bg-indigo-900 hover:bg-slate-500 drawer-button absolute top-1 right-8 lg:right-6 z-10"
-      id="mydrawerbutton">...</label>
-    <div class="drawer-side">
-      <label for="mydrawer" class="drawer-overlay"></label>
-      <ul class="menu p-4 overflow-y-auto w-80 bg-gradient-to-t from-slate-300 to-slate-500 text-white uppercase"
-        id="mydrawermenu">
-        <li id="hLink"><a href="../../index.html" class="hover:text-white active:bg-slate-400">Home</a></li>
-        <li id="hLink"><a href="../html/aboutme.html" class="hover:text-white active:bg-slate-400">About Me</a></li>
-        <li id="hLink"><a href="../html/projects.html" class="hover:text-white active:bg-slate-400">Projects</a></li>
-        <li id="hLink"><a href="../html/contact.html" class="hover:text-white active:bg-slate-400">Contact</a></li>
-        <div class="absolute flex mx-auto bottom-4">
-          <img src="../img/tom-a logo.png" class="w-12" alt="">
-        </div>
-      </ul>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    <script src="../JS/contact.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+      <script src="../JS/contact.js"></script>
 </body>
 
 </html>
