@@ -3660,6 +3660,11 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 0.5rem;
 }
 
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
